@@ -81,8 +81,9 @@ Com o ambiente virtual ativado e as dependências instaladas, inicie o servidor 
 ```bash
 flask run --host 0.0.0.0 --port 5000
 ```
+
 O servidor rodará em: http://localhost:5000
-```
+
 ---
 
 ## Documentação da API (Swagger)
@@ -91,7 +92,6 @@ Após iniciar o servidor, acesse a documentação da API em:
 
 ```
 http://localhost:5000/openapi
-
 ```
 
 Nela é possível visualizar todas as rotas disponíveis, os métodos HTTP, os parâmetros esperados, os formatos de requisição/resposta e os possíveis códigos de status, além de poder testar cada rota diretamente pelo navegador.
@@ -125,4 +125,3 @@ Nela é possível visualizar todas as rotas disponíveis, os métodos HTTP, os p
 ├── requirements.txt       # Dependências do projeto
 └── README.md              # Este arquivo
 ```
----
