@@ -110,21 +110,19 @@ Nela é possível visualizar todas as rotas disponíveis, os métodos HTTP, os p
 
 ---
 
-```
 ## Estrutura do projeto
 
-├── model/
-│   ├── __init__.py     # Inicialização do pacote e configuração da sessão/engine
-│   ├── base.py        # Configuração base do SQLAlchemy (Base declarativa)
-│   └── livro.py       # Definição da tabela/modelo Livro
-├── schemas/
-│   ├── __init__.py     # Inicialização do pacote de schemas
-│   ├── error.py       # Schema padrão de retorno de erros
-│   └── livro.py       # Schemas de validação e serialização do Livro (Pydantic)
-├── app.py            # Rotas da API e regras de negócio
-├── requirements.txt      # Dependências do projeto
-└── README.md           # Este arquivo
-
 ```
+├── model/
+│   ├── __init__.py       # Inicialização do pacote e configuração da sessão/engine
+│   ├── base.py            # Configuração base do SQLAlchemy (Base declarativa)
+│   └── livro.py           # Definição da tabela/modelo Livro
+├── schemas/
+│   ├── __init__.py        # Inicialização do pacote de schemas
+│   ├── error.py           # Schema padrão de retorno de erros
+│   └── livro.py           # Schemas de validação e serialização do Livro (Pydantic)
+├── app.py                 # Rotas da API e regras de negócio
+├── requirements.txt       # Dependências do projeto
+└── README.md              # Este arquivo
 ```
 ---
