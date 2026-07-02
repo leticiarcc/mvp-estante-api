@@ -110,9 +110,10 @@ Nela é possível visualizar todas as rotas disponíveis, os métodos HTTP, os p
 
 ---
 
+```
 ## Estrutura simplificada do projeto
 
-```
+
 ├── model/
 │   ├── __init__.py     # Inicialização do pacote e configuração da sessão/engine
 │   ├── base.py        # Configuração base do SQLAlchemy (Base declarativa)
